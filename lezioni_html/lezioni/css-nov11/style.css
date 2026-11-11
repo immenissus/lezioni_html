@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #031073;
+  font-size: 12px;
+
+}
+a {
+  color: #031073;
+  text-decoration: none;
+  font-size: 16px;
+}
+#container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#menu {
+    text-align: center;
+}
+#menu ul {
+    list-style-type: none;
+    padding: 2px;
+
+}
+
+#menu ul li {
+    display: inline;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+#sinistra {
+    width: 700px;
+    float: left;
+    background-color:blueviolet;
+
+}
+#destra {
+    width: 260px;
+    float: right;
+    background-color: yellow;
+}
+#logo {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+#logo_icona {
+    display: none;
+}
+/* inizio css per i scermi troppo piccoli */
+@media only screen and (max-width: 990px) {
+    #container {
+        width: 100%;
+    }
+    #menu ul li {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    #sinistra {
+        width: 70%;
+    }
+    #destra {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    body {
+        font-size: 16px;
+    }
+    #menu ul li {
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-weight: bold;
+    }
+    #sinistra {
+        width: 100%;
+        background-color: blue;
+    }
+    #destra {
+        width: 100%;
+        background-color: red;
+        font-family: courier;
+        color: white;
+    }
+    #logo {
+        display: none;
+    }
+    #logo_icona {
+        display: block;
+    }
+}

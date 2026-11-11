@@ -1,0 +1,73 @@
+@charset "utf-8";
+body {
+    background-color: lightblue;
+    font-family: Tahoma;
+    color:orange;
+    font-size: 20px;
+
+
+
+/* inizio del codice google fonts */
+.redaction-50-regular {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.redaction-50-bold {
+  font-family: "Redaction 50", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.redaction-50-regular-italic {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+p { font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
+  }
+
+h2 { font-family: "Redaction 50", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: blue;
+  }
+dispari. {
+    background-color: lightblue;
+    color: red;
+
+    }
+pari. {
+    background-color: lightblue;
+    color: green;
+    }
+titoli. {
+    font-family: Arial;
+    font-style: italic;
+}
+a {
+    color: black;
+}
+#niente {
+    text-decoration: none;
+}
+table {
+    border: 2px dashed black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+td {
+    text-align: center;
+    border-bottom: 4px dotted red;
+    border-right: 2px solid yellow;
+}
+.colorami {
+    background-color: blue;
+}
+
+}

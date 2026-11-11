@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightblue;
+    font-family: Helvetica, Verdana;
+
+}
+
+#contenitore {
+    background-color: lightgreen;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#testa {
+    background-color: lightyellow;
+    color: #c22828;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+#contenuto {
+    padding: 10px;
+}
+#menu {
+    width: 180px;
+    float: left;
+}
+#principale {
+    width: 600px;
+    float: left;
+}
+#footer {
+    width: 800px;
+    height: 76px;
+    clear: both;
+    background-color: lightyellow;
+    color: #c22828;
+}
+#primo {
+    width: 200px;
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+#secondo {
+    width: 300px;
+    float: left;
+    text-align: center;
+    padding: 26px 10px 10px 10px;
+
+}
+#terzo {
+    width: 240px;
+    float: left;
+    text-align: right;
+    padding: 10px;
+}
+img.social {
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+a {
+    text-decoration: none;
+}
+#menu ul {
+    list-style-type: none;
+    padding: 2px;
+}
